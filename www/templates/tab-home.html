@@ -1,0 +1,17 @@
+<ion-view view-title="Scanner">
+    <ion-content style="background: #e8ebf1;" class="padding">
+
+        <div class="send-container">
+            <input type="text" name="messageInput" class="message-input" value="Send a message..." id="messageInput" ng-model="outgoingMessage"/>
+            <button class="button button-positive" ng-click="vm.send()">
+                <i class="icon ion-checkmark-round"></i>
+                Send
+            </button>
+            <button class="button button-positive" ng-click="vm.scan()">
+                <i class="icon ion-qr-scanner"></i>
+                Scan
+            </button>
+        </div>
+
+    </ion-content>
+</ion-view>
